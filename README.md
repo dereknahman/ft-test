@@ -16,6 +16,7 @@ TODO:
 ## Stuff to bare in mind
 
 - shall I display the latest headlines on page load alongside the form for users to search for more specific headlines?
+- how to make queryString of API call dynamic?
 - what's the bin folder, why am I using that insead of the app.js entry point I've been using in tutorials
 - do I need to keep users.js?
 - do I need to use something like this for pagination? https://github.com/expressjs/express-paginate
