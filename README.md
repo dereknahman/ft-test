@@ -7,7 +7,7 @@ TODO:
 - investigate which components from Origami might be helpful and plan for those if necessary.
 - if there's time, write a function to list suggestions for the user to select depending on what they type into the search box on keyup.
 - add a process env file and insert my api key in a way that doesn't utterly grass up my api key.
-  - shall i use axios or fetch?
+- probably need a partials folder to render. sort out final architecture soon
 
 ## Things to talk about in the final README - just a list for now
 
@@ -34,16 +34,15 @@ containing specific words (i.e. searching for "brexit" should return a list of b
 
 ## Optional parts of the spec
 
-✅ == things I plan to do on my own  
-----> == things I will need external guidance on
+✅ == things I plan to do
 
 Be responsive ✅  
-Be accessible -----> ask charlie about this  
-Have pagination ----> what is this  
+Be accessible
+Have pagination
 Not be reliant on client-side frameworks (i.e. Angular, React) or libraries like jQuery ✅  
 Built using Javascript and node.js ✅  
-Uses Origami Components ----> look into this  
-Progressively enhanced -----> ask charlie about this  
+Uses Origami Components ✅
+Progressively enhanced
 Deployed on Heroku ✅  
 Have a similar look and feel as the original site ✅  
 Perform well over 3G networks  
