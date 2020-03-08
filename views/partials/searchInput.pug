@@ -1,0 +1,8 @@
+.o-grid-row(data-o-grid-colspan='center 12 S10 M8')
+    form(action='/search')
+        label.o-forms-field.o-forms-field
+            span.o-forms-title
+                span.o-forms-title__main
+        span.o-forms-input.o-forms-input--text.o-forms-input--suffix
+            input(type='text' name='searchQuery' value=searchTerm ? searchTerm : "")
+            button.o-buttons.o-buttons--secondary.o-buttons-icon.o-buttons-icon--search(type='submit') Search
