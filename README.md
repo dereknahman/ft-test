@@ -1,6 +1,5 @@
 TODO:
 
-- insert a form into the index page and render it
 - how to include metadata in pug template and what to include?
 - arrive at the proper body to include in the search API call in Postman.
 - where do i put the logic for the API calls and how do I present it?
@@ -9,11 +8,13 @@ TODO:
 
 - Origami stuff:
   - forms
+  - buttons
   - footer
   - header
   - grid
   - colors
   - typography
+  - editorial typography
 
 ## Things to talk about in the final README - just a list for now
 
