@@ -1,9 +1,6 @@
 TODO:
 
 - how to include metadata in pug template and what to include?
-- arrive at the proper body to include in the search API call in Postman.
-- where do i put the logic for the API calls and how do I present it?
-- connect the form to the API call and response.
 - if there's time, write a function to list suggestions for the user to select depending on what they type into the search box on keyup.
 
 - Origami stuff:
@@ -34,7 +31,7 @@ Additionally, provide a search box for users to search for headlines containing 
 
 ✅ == things I plan to do
 
-Be responsive ✅  
+Be responsive ✅ - but not on mobile so maybe not?
 Be accessible
 Have pagination
 Not be reliant on client-side frameworks (i.e. Angular, React) or libraries like jQuery ✅  
