@@ -3,7 +3,7 @@ const axios = require("axios");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.render("layout", { title: "Headlines" });
+  res.render("layout", { title: "Srchr" });
 });
 
 router.get("/search", (req, res) => {
