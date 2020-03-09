@@ -1,7 +1,7 @@
 TODO:
 
-- how to include metadata in pug template and what to include?
 - if there's time, write a function to list suggestions for the user to select depending on what they type into the search box on keyup.
+- insert title
 
 - Origami stuff:
   - forms
