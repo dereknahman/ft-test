@@ -2,19 +2,15 @@ doctype html
 html(lang='en')
   head
     title= title
-    link(rel='preconnect stylesheet' href='https://www.ft.com/__origami/service/build/v2/bundles/css?modules=o-colors@^5.0.6,o-header@^8.0.2,o-footer@^7.0.2,o-grid@^5.0.2,o-typography@^6.1.3,o-forms@^8.2.1,o-buttons@^6.0.8,o-editorial-typography@^1.0.4')
+    link(rel='preconnect stylesheet' href='https://www.ft.com/__origami/service/build/v2/bundles/css?modules=o-colors@^5.0.6,o-header@^8.0.2,o-footer@^7.0.2,o-grid@^5.0.2,o-typography@^6.1.3,o-forms@^8.2.1,o-buttons@^6.0.8,o-editorial-typography@^1.0.4,o-date@^4.0.0,o-teaser@^5.0.1')
     link(rel='stylesheet' href='/stylesheets/style.css')
   body.o-colors-page-background
-    o-grid-container.o-typography-wrapper
-      .o-grid-row(data-o-grid-colspan='center 8')
-      include ./partials/header
-      main.container
-        block content
-      include ./partials/searchInput
-      if results
-        each result in results
-          h3= result.title.title
-      include ./partials/footer
-
-      //- below isn't working - should i remove?
-      //- script(src='https://www.ft.com/__origami/service/build/v2/bundles/js?modules=o-header@^8.0.2,o-footer@^7.0.2')
+    include ./partials/header
+    main.container
+      block content
+        include ./partials/searchInput
+        if results
+          each result in results
+            include ./partials/searchResults 
+        include ./partials/footer
+          script(src='https://www.ft.com/__origami/service/build/v2/bundles/js?modules=o-date@^4.0.0')
