@@ -22,7 +22,7 @@ Additionally, provide a search box for users to search for headlines containing 
 
 ✅ == things I have done
 
-Be responsive ✅
+Be responsive ✅  
 Be accessible  
 Have pagination  
 Not be reliant on client-side frameworks (i.e. Angular, React) or libraries like jQuery ✅  
