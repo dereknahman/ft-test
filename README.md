@@ -34,16 +34,16 @@ Have a similar look and feel as the original site ✅
 Perform well over 3G networks  
 Work offline
 
-- Origami components used:
+Origami components used:
 
-  - forms
-  - buttons
-  - footer
-  - header
-  - grid
-  - colors
-  - typography
+- forms
+- buttons
+- footer
+- header
+- grid
+- colors
+- typography
 
-  ## Thank you for setting this test!
+## Thank you for setting this test!
 
-  I had a lot of fun, and learned an enormous amount 🦑
+I had a lot of fun, and learned an enormous amount 🦑
