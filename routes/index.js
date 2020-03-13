@@ -31,7 +31,8 @@ router.get("/search", (req, res) => {
       res.render("layout", { searchTerm, results });
     })
     .catch(function(error) {
-      console.log(error);
+      const errorMessage = error.response.data.error;
+      res.render("layout", { errorMessage });
     });
 });
 
