@@ -26,11 +26,11 @@ router.get("/search", (req, res) => {
     .post("http://api.ft.com/content/search/v1", requestData, {
       headers: apiHeaders
     })
-    .then(function(response) {
+    .then(response => {
       const results = response.data.results[0].results;
       res.render("layout", { searchTerm, results });
     })
-    .catch(function(error) {
+    .catch(error => {
       const errorMessage = error.response.data.error;
       res.render("layout", { errorMessage });
     });
