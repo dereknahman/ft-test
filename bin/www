@@ -1,11 +1,9 @@
 #!/usr/bin/env node
+require("dotenv").config();
 
 /**
  * Module dependencies.
  */
-// added below following twilio .env tutorial
-require("dotenv").config();
-
 const app = require("../app");
 const debug = require("debug")("srchr:server");
 const http = require("http");
