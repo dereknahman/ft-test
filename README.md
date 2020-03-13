@@ -2,7 +2,7 @@
 
 https://srchr.herokuapp.com/
 
-## Running this app from the source code
+## Running this app
 
 1. Install `node` if you haven't already.
 2. Get an [FT Developer API key](https://developer.ft.com/portal/docs-start-obtain-an-api-key).
